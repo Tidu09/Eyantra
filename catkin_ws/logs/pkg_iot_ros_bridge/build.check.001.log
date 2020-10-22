@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/tidu/catkin_ws/src/pkg_iot_ros_bridge/CMakeLists.txt:66:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/tidu/catkin_ws/build/pkg_iot_ros_bridge/CMakeFiles/CMakeOutput.log".
+See also "/home/tidu/catkin_ws/build/pkg_iot_ros_bridge/CMakeFiles/CMakeError.log".
+Makefile:614: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,7 @@
+[31m[1mCMake Error[0m at /home/tidu/catkin_ws/src/pkg_iot_ros_bridge/CMakeLists.txt:66:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+
+make: *** [cmake_check_build_system] Error 1

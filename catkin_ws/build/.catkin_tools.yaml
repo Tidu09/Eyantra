@@ -1,0 +1,6 @@
+devel_space: /home/tidu/catkin_ws/devel
+install: false
+install_space: /home/tidu/catkin_ws/install
+profile: default
+source_space: /home/tidu/catkin_ws/src
+workspace: /home/tidu/catkin_ws
