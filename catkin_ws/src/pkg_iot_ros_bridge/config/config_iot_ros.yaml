@@ -5,8 +5,8 @@ config_iot:
     server_url: "broker.mqttdashboard.com"        # http://www.hivemq.com/demos/websocket-client/
     # server_url: "test.mosquitto.org"			  # Alternative to HiveMQ
     server_port: 1883
-    topic_sub: "eyrc/xYzqLm/iot_to_ros"          # <unique_id> = xYzqLm
-    topic_pub: "eyrc/xYzqLm/ros_to_iot"          # <unique_id> = xYzqLm
+    topic_sub: "eyrc/skruskvs/iot_to_ros"          # <unique_id> = xYzqLm
+    topic_pub: "eyrc/skruskvs/ros_to_iot"          # <unique_id> = xYzqLm
     qos: 0
 
     sub_cb_ros_topic: "/ros_iot_bridge/mqtt/sub"   # ROS nodes can listen to this topic to receive data from MQTT

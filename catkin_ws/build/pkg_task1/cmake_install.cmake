@@ -129,7 +129,55 @@ file(INSTALL DESTINATION "/home/tidu/catkin_ws/install" TYPE FILE FILES "/home/t
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_task1/action" TYPE FILE FILES "/home/tidu/catkin_ws/src/pkg_task1/action/msgTurtle.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_task1/msg" TYPE FILE FILES
+    "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/pkg_task1/msg/msgTurtleAction.msg"
+    "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/pkg_task1/msg/msgTurtleActionGoal.msg"
+    "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/pkg_task1/msg/msgTurtleActionResult.msg"
+    "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/pkg_task1/msg/msgTurtleActionFeedback.msg"
+    "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/pkg_task1/msg/msgTurtleGoal.msg"
+    "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/pkg_task1/msg/msgTurtleResult.msg"
+    "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/pkg_task1/msg/msgTurtleFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_task1/cmake" TYPE FILE FILES "/home/tidu/catkin_ws/build/pkg_task1/catkin_generated/installspace/pkg_task1-msg-paths.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tidu/catkin_ws/devel/.private/pkg_task1/include/pkg_task1")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/roseus/ros/pkg_task1")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/common-lisp/ros/pkg_task1")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/tidu/catkin_ws/devel/.private/pkg_task1/share/gennodejs/ros/pkg_task1")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/tidu/catkin_ws/devel/.private/pkg_task1/lib/python2.7/dist-packages/pkg_task1")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/tidu/catkin_ws/devel/.private/pkg_task1/lib/python2.7/dist-packages/pkg_task1")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tidu/catkin_ws/build/pkg_task1/catkin_generated/installspace/pkg_task1.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_task1/cmake" TYPE FILE FILES "/home/tidu/catkin_ws/build/pkg_task1/catkin_generated/installspace/pkg_task1-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
