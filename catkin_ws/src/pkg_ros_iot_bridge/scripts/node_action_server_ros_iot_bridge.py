@@ -21,7 +21,7 @@ class IotRosBridgeActionServer:
     # Constructor
     def __init__(self):
         # Initialize the Action Server
-        self._as = actionlib.ActionServer('/action_iot_ros',
+        self._as = actionlib.ActionServer('/action_ros_iot',
                                           msgIotRosAction,
                                           self.on_goal,
                                           self.on_cancel,
@@ -138,9 +138,9 @@ class IotRosBridgeActionServer:
 
                 ret = iot.mqtt_publish( self._config_mqtt_server_url, 
                                         self._config_mqtt_server_port,
-                                        goal.topic, 
+                                        self._config_mqtt_pub_topic, 
                                         goal.message, 
-                                        self._config_mqtt_qos   )
+                                        self._config_mqtt_qos)
 
                 if(ret == 0):
                     rospy.loginfo("MQTT Publish Successful.")
@@ -156,7 +156,7 @@ class IotRosBridgeActionServer:
                 ret = iot.mqtt_subscribe_thread_start(  self.mqtt_sub_callback, 
                                                         self._config_mqtt_server_url, 
                                                         self._config_mqtt_server_port, 
-                                                        goal.topic, 
+                                                        self._config_mqtt_sub_topic, 
                                                         self._config_mqtt_qos   )
                 if(ret == 0):
                     rospy.loginfo("MQTT Subscribe Thread Started")

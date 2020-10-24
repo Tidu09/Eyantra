@@ -9,6 +9,7 @@ from pkg_iot_ros_bridge.msg import msgIotRosAction      # Message Class that is 
 from pkg_iot_ros_bridge.msg import msgIotRosGoal        # Message Class that is used for Goal Messages
 from pkg_iot_ros_bridge.msg import msgIotRosResult      # Message Class that is used for Result Messages
 
+
 class IotRosBridgeActionClient:
 
     # Constructor
