@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/gennodejs/ros/pkg_ros_iot_bridge/msg/msgRosIotActionFeedback.js"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/gennodejs/ros/pkg_ros_iot_bridge/msg/msgRosIotResult.js"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/gennodejs/ros/pkg_ros_iot_bridge/msg/msgRosIotActionGoal.js"
+  "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/gennodejs/ros/pkg_ros_iot_bridge/msg/msgMqttSub.js"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/gennodejs/ros/pkg_ros_iot_bridge/msg/msgRosIotFeedback.js"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/gennodejs/ros/pkg_ros_iot_bridge/msg/msgRosIotGoal.js"
 )

@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/common-lisp/ros/pkg_ros_iot_bridge/msg/msgRosIotActionFeedback.lisp"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/common-lisp/ros/pkg_ros_iot_bridge/msg/msgRosIotResult.lisp"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/common-lisp/ros/pkg_ros_iot_bridge/msg/msgRosIotActionGoal.lisp"
+  "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/common-lisp/ros/pkg_ros_iot_bridge/msg/msgMqttSub.lisp"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/common-lisp/ros/pkg_ros_iot_bridge/msg/msgRosIotFeedback.lisp"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/common-lisp/ros/pkg_ros_iot_bridge/msg/msgRosIotGoal.lisp"
 )

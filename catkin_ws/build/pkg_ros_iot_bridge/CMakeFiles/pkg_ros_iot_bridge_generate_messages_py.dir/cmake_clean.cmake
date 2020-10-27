@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/lib/python2.7/dist-packages/pkg_ros_iot_bridge/msg/_msgRosIotActionFeedback.py"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/lib/python2.7/dist-packages/pkg_ros_iot_bridge/msg/_msgRosIotResult.py"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/lib/python2.7/dist-packages/pkg_ros_iot_bridge/msg/_msgRosIotActionGoal.py"
+  "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/lib/python2.7/dist-packages/pkg_ros_iot_bridge/msg/_msgMqttSub.py"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/lib/python2.7/dist-packages/pkg_ros_iot_bridge/msg/_msgRosIotFeedback.py"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/lib/python2.7/dist-packages/pkg_ros_iot_bridge/msg/_msgRosIotGoal.py"
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/lib/python2.7/dist-packages/pkg_ros_iot_bridge/msg/__init__.py"

@@ -14,6 +14,11 @@ add_action_files(
   msgRosIot.action
 )
 
+add_message_files(
+  FILES
+  msgMqttSub.msg
+)
+
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES

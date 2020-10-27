@@ -11,5 +11,5 @@ config_iot:
 
     sub_cb_ros_topic: "/ros_iot_bridge/mqtt/sub"   # ROS nodes can listen to this topic to receive data from MQTT
     
-  # google_apps:
-  #   spread_sheet_id:  # Spreadsheet Id/Webapp Id
+  google_apps:
+    spread_sheet_id: https://script.google.com/macros/s/AKfycbyo0vjOtf6ksxCX3Otr2xxsNoAGBH3R_eiE8GrL1nm8c0EV_-N4/exec?

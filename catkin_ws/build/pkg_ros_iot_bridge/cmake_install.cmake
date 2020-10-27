@@ -145,6 +145,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_ros_iot_bridge/msg" TYPE FILE FILES "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_ros_iot_bridge/cmake" TYPE FILE FILES "/home/tidu/catkin_ws/build/pkg_ros_iot_bridge/catkin_generated/installspace/pkg_ros_iot_bridge-msg-paths.cmake")
 endif()
 

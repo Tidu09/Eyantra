@@ -1,8 +1,8 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "pkg_ros_iot_bridge: 7 messages, 0 services")
+message(STATUS "pkg_ros_iot_bridge: 8 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ipkg_ros_iot_bridge:/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipkg_ros_iot_bridge:/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg;-Ipkg_ros_iot_bridge:/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -47,6 +47,11 @@ add_custom_target(_pkg_ros_iot_bridge_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pkg_ros_iot_bridge" "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pkg_ros_iot_bridge/msgRosIotResult:std_msgs/Header"
 )
 
+get_filename_component(_filename "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg" NAME_WE)
+add_custom_target(_pkg_ros_iot_bridge_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pkg_ros_iot_bridge" "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg" ""
+)
+
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg" NAME_WE)
 add_custom_target(_pkg_ros_iot_bridge_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pkg_ros_iot_bridge" "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg" ""
@@ -89,6 +94,12 @@ _generate_msg_cpp(pkg_ros_iot_bridge
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pkg_ros_iot_bridge
 )
 _generate_msg_cpp(pkg_ros_iot_bridge
+  "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pkg_ros_iot_bridge
+)
+_generate_msg_cpp(pkg_ros_iot_bridge
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
@@ -126,6 +137,8 @@ add_dependencies(pkg_ros_iot_bridge_generate_messages_cpp _pkg_ros_iot_bridge_ge
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotResult.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_cpp _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotActionResult.msg" NAME_WE)
+add_dependencies(pkg_ros_iot_bridge_generate_messages_cpp _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_cpp _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_cpp _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
@@ -170,6 +183,12 @@ _generate_msg_eus(pkg_ros_iot_bridge
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pkg_ros_iot_bridge
 )
 _generate_msg_eus(pkg_ros_iot_bridge
+  "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pkg_ros_iot_bridge
+)
+_generate_msg_eus(pkg_ros_iot_bridge
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
@@ -207,6 +226,8 @@ add_dependencies(pkg_ros_iot_bridge_generate_messages_eus _pkg_ros_iot_bridge_ge
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotResult.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_eus _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotActionResult.msg" NAME_WE)
+add_dependencies(pkg_ros_iot_bridge_generate_messages_eus _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_eus _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_eus _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
@@ -251,6 +272,12 @@ _generate_msg_lisp(pkg_ros_iot_bridge
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pkg_ros_iot_bridge
 )
 _generate_msg_lisp(pkg_ros_iot_bridge
+  "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pkg_ros_iot_bridge
+)
+_generate_msg_lisp(pkg_ros_iot_bridge
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
@@ -288,6 +315,8 @@ add_dependencies(pkg_ros_iot_bridge_generate_messages_lisp _pkg_ros_iot_bridge_g
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotResult.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_lisp _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotActionResult.msg" NAME_WE)
+add_dependencies(pkg_ros_iot_bridge_generate_messages_lisp _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_lisp _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_lisp _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
@@ -332,6 +361,12 @@ _generate_msg_nodejs(pkg_ros_iot_bridge
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pkg_ros_iot_bridge
 )
 _generate_msg_nodejs(pkg_ros_iot_bridge
+  "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pkg_ros_iot_bridge
+)
+_generate_msg_nodejs(pkg_ros_iot_bridge
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
@@ -369,6 +404,8 @@ add_dependencies(pkg_ros_iot_bridge_generate_messages_nodejs _pkg_ros_iot_bridge
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotResult.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_nodejs _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotActionResult.msg" NAME_WE)
+add_dependencies(pkg_ros_iot_bridge_generate_messages_nodejs _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_nodejs _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_nodejs _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
@@ -413,6 +450,12 @@ _generate_msg_py(pkg_ros_iot_bridge
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pkg_ros_iot_bridge
 )
 _generate_msg_py(pkg_ros_iot_bridge
+  "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pkg_ros_iot_bridge
+)
+_generate_msg_py(pkg_ros_iot_bridge
   "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
@@ -450,6 +493,8 @@ add_dependencies(pkg_ros_iot_bridge_generate_messages_py _pkg_ros_iot_bridge_gen
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotResult.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_py _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotActionResult.msg" NAME_WE)
+add_dependencies(pkg_ros_iot_bridge_generate_messages_py _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/tidu/catkin_ws/src/pkg_ros_iot_bridge/msg/msgMqttSub.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_py _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/tidu/catkin_ws/devel/.private/pkg_ros_iot_bridge/share/pkg_ros_iot_bridge/msg/msgRosIotFeedback.msg" NAME_WE)
 add_dependencies(pkg_ros_iot_bridge_generate_messages_py _pkg_ros_iot_bridge_generate_messages_check_deps_${_filename})

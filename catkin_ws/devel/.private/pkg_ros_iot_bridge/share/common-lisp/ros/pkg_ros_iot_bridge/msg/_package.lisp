@@ -1,6 +1,8 @@
 (cl:defpackage pkg_ros_iot_bridge-msg
   (:use )
   (:export
+   "<MSGMQTTSUB>"
+   "MSGMQTTSUB"
    "<MSGROSIOTACTION>"
    "MSGROSIOTACTION"
    "<MSGROSIOTACTIONFEEDBACK>"

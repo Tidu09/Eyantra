@@ -8,6 +8,7 @@ let msgRosIotGoal = require('./msgRosIotGoal.js');
 let msgRosIotResult = require('./msgRosIotResult.js');
 let msgRosIotActionGoal = require('./msgRosIotActionGoal.js');
 let msgRosIotActionFeedback = require('./msgRosIotActionFeedback.js');
+let msgMqttSub = require('./msgMqttSub.js');
 
 module.exports = {
   msgRosIotAction: msgRosIotAction,
@@ -17,4 +18,5 @@ module.exports = {
   msgRosIotResult: msgRosIotResult,
   msgRosIotActionGoal: msgRosIotActionGoal,
   msgRosIotActionFeedback: msgRosIotActionFeedback,
+  msgMqttSub: msgMqttSub,
 };

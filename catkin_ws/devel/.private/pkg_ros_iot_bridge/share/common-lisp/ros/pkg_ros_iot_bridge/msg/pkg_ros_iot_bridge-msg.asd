@@ -6,6 +6,8 @@
                :std_msgs-msg
 )
   :components ((:file "_package")
+    (:file "msgMqttSub" :depends-on ("_package_msgMqttSub"))
+    (:file "_package_msgMqttSub" :depends-on ("_package"))
     (:file "msgRosIotAction" :depends-on ("_package_msgRosIotAction"))
     (:file "_package_msgRosIotAction" :depends-on ("_package"))
     (:file "msgRosIotActionFeedback" :depends-on ("_package_msgRosIotActionFeedback"))
