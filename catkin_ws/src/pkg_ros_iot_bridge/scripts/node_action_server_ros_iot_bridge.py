@@ -166,7 +166,7 @@ class IotRosBridgeActionServer:
                 send_sheet={"id":"Sheet1","turtle_x":send_x,"turtle_y":send_y,"turtle_theta":send_theta}
                 response = requests.get(self._sheet_url, params=send_sheet)
                 URL1="https://script.google.com/macros/s/AKfycbw850dk4moVgebU2GGe0PUQUvvg8jTpSjBQCawJt3_13vgujLk/exec"
-                parameters = {"id":"task1", "team_id":"vd_1347", "unique_id":"skruskvs", "turtle_x":send_x, "turtle_y":send_y, "turtle_theta":send_theta} 
+                parameters = {"id":"task1", "team_id":"vb_1347", "unique_id":"skruskvs", "turtle_x":send_x, "turtle_y":send_y, "turtle_theta":send_theta} 
                 response1 = requests.get(URL1, params=parameters)
                 rospy.loginfo(response1.content)
 
