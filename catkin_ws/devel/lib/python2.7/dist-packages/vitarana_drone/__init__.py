@@ -1,1 +1,0 @@
-/home/tidu/catkin_ws/devel/.private/vitarana_drone/lib/python2.7/dist-packages/vitarana_drone/__init__.py

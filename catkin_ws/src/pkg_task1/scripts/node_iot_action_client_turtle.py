@@ -56,11 +56,12 @@ class SimpleActionClientTurtle:
         Submit=[]
         #rospy.loginfo("Status is : " + str(status))
         rospy.loginfo("Result is : " + str(result))
+        #Makes a list of all the values. x,y and theta
         Submit.append(result.final_x)
         Submit.append(result.final_y)
         Submit.append(result.final_theta)
         rospy.loginfo(Submit)
-        self.Iot_client.send_goal_Iot("mqtt","pub","eyrc/skruskvs/ros_to_iot",str(Submit))
+        self.Iot_client.send_goal_Iot("mqtt","pub","eyrc/skruskvs/ros_to_iot",str(Submit))   #send to MQTT
 
     # Function to print feedback while Goal is being processed
     def feedback_callback(self, feedback):
@@ -98,7 +99,7 @@ class SendtoIOT:
         goal_Iot.topic=arg_topic
         goal_Iot.message=arg_message
 
-        goal_handle=self._ac2.send_goal(goal_Iot,None,None)
+        goal_handle=self._ac2.send_goal(goal_Iot,None,None)  #send goal
 
         return goal_handle
 
@@ -119,7 +120,7 @@ def main():
     # 2. Create a object for Simple Action Client.
     obj_client = SimpleActionClientTurtle()
 
-    # 3. Send Goals to Draw a Square
+    # 3. Send Goals to Draw a Hexagon
     obj_client.send_goal(2, 0)
     rospy.sleep(7)
    
@@ -137,9 +138,6 @@ def main():
 
     obj_client.send_goal(2, 60)
     rospy.sleep(11)
-
-    # obj_client.send_goal(2, 90)
-    # rospy.sleep(5)
         # 4. Loop forever
     rospy.spin()
 

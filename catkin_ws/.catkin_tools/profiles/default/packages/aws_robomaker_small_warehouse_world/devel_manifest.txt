@@ -1,0 +1,5 @@
+vb_simulation_pkgs/aws-robomaker-small-warehouse-world
+/home/tidu/catkin_ws/devel/.private/aws_robomaker_small_warehouse_world/cmake.lock /home/tidu/catkin_ws/devel/./cmake.lock
+/home/tidu/catkin_ws/devel/.private/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig-version.cmake /home/tidu/catkin_ws/devel/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig-version.cmake
+/home/tidu/catkin_ws/devel/.private/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig.cmake /home/tidu/catkin_ws/devel/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig.cmake
+/home/tidu/catkin_ws/devel/.private/aws_robomaker_small_warehouse_world/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc /home/tidu/catkin_ws/devel/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc

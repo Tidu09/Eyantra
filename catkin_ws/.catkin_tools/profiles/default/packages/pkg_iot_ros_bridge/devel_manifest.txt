@@ -39,14 +39,6 @@ pkg_iot_ros_bridge
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosActionFeedback.js /home/tidu/catkin_ws/devel/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosActionFeedback.js
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosActionGoal.js /home/tidu/catkin_ws/devel/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosActionGoal.js
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosFeedback.js /home/tidu/catkin_ws/devel/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosFeedback.js
-/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/cmake/pkg_ros_actions-msg-paths.cmake /home/tidu/catkin_ws/devel/share/pkg_ros_actions/cmake/pkg_ros_actions-msg-paths.cmake
-/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosGoal.msg /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosGoal.msg
-/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosResult.msg /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosResult.msg
-/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosFeedback.msg /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosFeedback.msg
-/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosActionFeedback.msg /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosActionFeedback.msg
-/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosAction.msg /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosAction.msg
-/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosActionGoal.msg /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosActionGoal.msg
-/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosActionResult.msg /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosActionResult.msg
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/roseus/ros/pkg_iot_ros_bridge/manifest.l /home/tidu/catkin_ws/devel/share/roseus/ros/pkg_iot_ros_bridge/manifest.l
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/roseus/ros/pkg_iot_ros_bridge/msg/msgIotRosActionGoal.l /home/tidu/catkin_ws/devel/share/roseus/ros/pkg_iot_ros_bridge/msg/msgIotRosActionGoal.l
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/roseus/ros/pkg_iot_ros_bridge/msg/msgIotRosFeedback.l /home/tidu/catkin_ws/devel/share/roseus/ros/pkg_iot_ros_bridge/msg/msgIotRosFeedback.l
@@ -66,7 +58,6 @@ pkg_iot_ros_bridge
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/lib/python2.7/dist-packages/pkg_iot_ros_bridge/msg/_msgIotRosGoal.py /home/tidu/catkin_ws/devel/lib/python2.7/dist-packages/pkg_iot_ros_bridge/msg/_msgIotRosGoal.py
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/lib/python2.7/dist-packages/pkg_iot_ros_bridge/msg/_msgMqttSub.py /home/tidu/catkin_ws/devel/lib/python2.7/dist-packages/pkg_iot_ros_bridge/msg/_msgMqttSub.py
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/lib/python2.7/dist-packages/pkg_iot_ros_bridge/msg/_msgIotRosFeedback.py /home/tidu/catkin_ws/devel/lib/python2.7/dist-packages/pkg_iot_ros_bridge/msg/_msgIotRosFeedback.py
-/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/lib/python2.7/dist-packages/pkg_ros_actions/__init__.py /home/tidu/catkin_ws/devel/lib/python2.7/dist-packages/pkg_ros_actions/__init__.py
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/lib/pkgconfig/pkg_iot_ros_bridge.pc /home/tidu/catkin_ws/devel/lib/pkgconfig/pkg_iot_ros_bridge.pc
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/include/pkg_iot_ros_bridge/msgIotRosResult.h /home/tidu/catkin_ws/devel/include/pkg_iot_ros_bridge/msgIotRosResult.h
 /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/include/pkg_iot_ros_bridge/msgIotRosActionResult.h /home/tidu/catkin_ws/devel/include/pkg_iot_ros_bridge/msgIotRosActionResult.h

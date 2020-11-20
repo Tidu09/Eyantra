@@ -41,7 +41,7 @@ Not searching for unused variables given on the command line.
 [36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 [36m--[0m Generating .msg files for action pkg_ros_iot_bridge/msgRosIot /home/tidu/catkin_ws/src/pkg_ros_iot_bridge/action/msgRosIot.action
 Generating for action msgRosIot
-[36m--[0m pkg_ros_iot_bridge: 7 messages, 0 services
+[36m--[0m pkg_ros_iot_bridge: 8 messages, 0 services
 [36m--[0m Configuring done
 [36m--[0m Generating done
 [36m--[0m Build files have been written to: /home/tidu/catkin_ws/build/pkg_ros_iot_bridge

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/gazebo_msgs_generate_messages_lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/ModelStates.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/ContactState.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/LinkStates.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/ContactsState.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/PerformanceMetrics.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/LinkState.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/WorldState.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/SensorPerformanceMetric.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/ModelState.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/ODEPhysics.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/msg/ODEJointProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/GetLinkState.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/SetModelConfiguration.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/ApplyBodyWrench.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/SetLinkState.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/DeleteModel.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/GetWorldProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/GetModelState.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/ApplyJointEffort.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/BodyRequest.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/GetPhysicsProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/SetJointTrajectory.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/JointRequest.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/SetLinkProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/GetLinkProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/SetPhysicsProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/SpawnModel.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/SetJointProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/GetModelProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/GetJointProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/DeleteLight.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/SetLightProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/GetLightProperties.lisp"
+  "/home/tidu/catkin_ws/devel/.private/gazebo_msgs/share/common-lisp/ros/gazebo_msgs/srv/SetModelState.lisp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

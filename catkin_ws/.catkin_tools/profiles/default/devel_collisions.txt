@@ -1,3 +1,4 @@
-/home/tidu/catkin_ws/devel/share/pkg_ros_actions/cmake/pkg_ros_actions-msg-paths.cmake 8
-/home/tidu/catkin_ws/devel/lib/python2.7/dist-packages/pkg_ros_actions/__init__.py 8
-/home/tidu/catkin_ws/devel/./cmake.lock 98
+/home/tidu/catkin_ws/devel/lib/libROSLogicalCameraPlugin.so 1
+/home/tidu/catkin_ws/devel/share/pkg_ros_actions/cmake/pkg_ros_actions-msg-paths.cmake 11
+/home/tidu/catkin_ws/devel/lib/python2.7/dist-packages/pkg_ros_actions/__init__.py 11
+/home/tidu/catkin_ws/devel/./cmake.lock 270

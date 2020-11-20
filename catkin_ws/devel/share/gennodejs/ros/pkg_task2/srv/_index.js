@@ -1,0 +1,1 @@
+/home/tidu/catkin_ws/devel/.private/pkg_task2/share/gennodejs/ros/pkg_task2/srv/_index.js

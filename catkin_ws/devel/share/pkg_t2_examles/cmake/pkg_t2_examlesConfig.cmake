@@ -1,0 +1,1 @@
+/home/tidu/catkin_ws/devel/.private/pkg_t2_examles/share/pkg_t2_examles/cmake/pkg_t2_examlesConfig.cmake

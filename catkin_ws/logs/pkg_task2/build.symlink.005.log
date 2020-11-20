@@ -1,0 +1,20 @@
+Symlinking /home/tidu/catkin_ws/devel/share/pkg_task2/cmake/pkg_task2-msg-paths.cmake
+Linked: (/home/tidu/catkin_ws/devel/.private/pkg_task2/share/pkg_task2/cmake/pkg_task2Config.cmake, /home/tidu/catkin_ws/devel/share/pkg_task2/cmake/pkg_task2Config.cmake)
+Symlinking /home/tidu/catkin_ws/devel/share/pkg_task2/cmake/pkg_task2-msg-extras.cmake
+Linked: (/home/tidu/catkin_ws/devel/.private/pkg_task2/share/pkg_task2/cmake/pkg_task2Config-version.cmake, /home/tidu/catkin_ws/devel/share/pkg_task2/cmake/pkg_task2Config-version.cmake)
+Symlinking /home/tidu/catkin_ws/devel/share/common-lisp/ros/pkg_task2/srv/vacuumGripper.lisp
+Symlinking /home/tidu/catkin_ws/devel/share/common-lisp/ros/pkg_task2/srv/pkg_task2-srv.asd
+Symlinking /home/tidu/catkin_ws/devel/share/common-lisp/ros/pkg_task2/srv/_package_vacuumGripper.lisp
+Symlinking /home/tidu/catkin_ws/devel/share/common-lisp/ros/pkg_task2/srv/_package.lisp
+Symlinking /home/tidu/catkin_ws/devel/share/gennodejs/ros/pkg_task2/_index.js
+Symlinking /home/tidu/catkin_ws/devel/share/gennodejs/ros/pkg_task2/srv/vacuumGripper.js
+Symlinking /home/tidu/catkin_ws/devel/share/gennodejs/ros/pkg_task2/srv/_index.js
+Symlinking /home/tidu/catkin_ws/devel/share/roseus/ros/pkg_task2/manifest.l
+Symlinking /home/tidu/catkin_ws/devel/share/roseus/ros/pkg_task2/srv/vacuumGripper.l
+Symlinking /home/tidu/catkin_ws/devel/lib/python2.7/dist-packages/pkg_task2/__init__.py
+Symlinking /home/tidu/catkin_ws/devel/lib/python2.7/dist-packages/pkg_task2/srv/__init__.py
+Symlinking /home/tidu/catkin_ws/devel/lib/python2.7/dist-packages/pkg_task2/srv/_vacuumGripper.py
+Linked: (/home/tidu/catkin_ws/devel/.private/pkg_task2/lib/pkgconfig/pkg_task2.pc, /home/tidu/catkin_ws/devel/lib/pkgconfig/pkg_task2.pc)
+Symlinking /home/tidu/catkin_ws/devel/include/pkg_task2/vacuumGripper.h
+Symlinking /home/tidu/catkin_ws/devel/include/pkg_task2/vacuumGripperRequest.h
+Symlinking /home/tidu/catkin_ws/devel/include/pkg_task2/vacuumGripperResponse.h

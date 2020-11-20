@@ -37,16 +37,6 @@ Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/gennodejs/
 Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosActionFeedback.js, /home/tidu/catkin_ws/devel/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosActionFeedback.js)
 Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosActionGoal.js, /home/tidu/catkin_ws/devel/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosActionGoal.js)
 Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosFeedback.js, /home/tidu/catkin_ws/devel/share/gennodejs/ros/pkg_iot_ros_bridge/msg/msgIotRosFeedback.js)
-Warning: Cannot symlink from /home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/cmake/pkg_ros_actions-msg-paths.cmake to existing file /home/tidu/catkin_ws/devel/share/pkg_ros_actions/cmake/pkg_ros_actions-msg-paths.cmake
-Warning: Source hash: 2d8267a3cad9e35a96e6fa83689cfaa4
-Warning: Dest hash: 6f9d968f77b46f2c099ab01b30458be0
-Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosGoal.msg, /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosGoal.msg)
-Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosResult.msg, /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosResult.msg)
-Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosFeedback.msg, /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosFeedback.msg)
-Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosActionFeedback.msg, /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosActionFeedback.msg)
-Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosAction.msg, /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosAction.msg)
-Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosActionGoal.msg, /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosActionGoal.msg)
-Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/pkg_ros_actions/msg/msgIotRosActionResult.msg, /home/tidu/catkin_ws/devel/share/pkg_ros_actions/msg/msgIotRosActionResult.msg)
 Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/roseus/ros/pkg_iot_ros_bridge/manifest.l, /home/tidu/catkin_ws/devel/share/roseus/ros/pkg_iot_ros_bridge/manifest.l)
 Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/roseus/ros/pkg_iot_ros_bridge/msg/msgIotRosActionGoal.l, /home/tidu/catkin_ws/devel/share/roseus/ros/pkg_iot_ros_bridge/msg/msgIotRosActionGoal.l)
 Linked: (/home/tidu/catkin_ws/devel/.private/pkg_iot_ros_bridge/share/roseus/ros/pkg_iot_ros_bridge/msg/msgIotRosFeedback.l, /home/tidu/catkin_ws/devel/share/roseus/ros/pkg_iot_ros_bridge/msg/msgIotRosFeedback.l)

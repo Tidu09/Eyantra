@@ -1,0 +1,1 @@
+/home/tidu/catkin_ws/devel/.private/pkg_t2_examles/lib/pkgconfig/pkg_t2_examles.pc

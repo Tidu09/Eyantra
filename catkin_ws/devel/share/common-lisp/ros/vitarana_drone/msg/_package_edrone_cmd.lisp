@@ -1,1 +1,0 @@
-/home/tidu/catkin_ws/devel/.private/vitarana_drone/share/common-lisp/ros/vitarana_drone/msg/_package_edrone_cmd.lisp

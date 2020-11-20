@@ -44,7 +44,7 @@ class IotRosBridgeActionServer:
         self._config_mqtt_pub_topic = param_config_iot['mqtt']['topic_pub']
         self._config_mqtt_qos = param_config_iot['mqtt']['qos']
         self._config_mqtt_sub_cb_ros_topic = param_config_iot['mqtt']['sub_cb_ros_topic']
-        self._sheet_url=param_config_iot['google_apps']['spread_sheet_id']
+        self._sheet_url=param_config_iot['google_apps']['spread_sheet_id']                               #URL of our sheet
         print(param_config_iot)
 
 
@@ -163,8 +163,10 @@ class IotRosBridgeActionServer:
                 if goal.message[7]== '-':
                     send_theta=-1*int(goal.message[8])    
 
-                send_sheet={"id":"Sheet1","turtle_x":send_x,"turtle_y":send_y,"turtle_theta":send_theta}
+                ################################ For Our Sheet #########################################################################
+                send_sheet={"id":"Sheet1","turtle_x":send_x,"turtle_y":send_y,"turtle_theta":send_theta} 
                 response = requests.get(self._sheet_url, params=send_sheet)
+                ################################ For Eyantra Sheet #########################################################################
                 URL1="https://script.google.com/macros/s/AKfycbw850dk4moVgebU2GGe0PUQUvvg8jTpSjBQCawJt3_13vgujLk/exec"
                 parameters = {"id":"task1", "team_id":"vb_1347", "unique_id":"skruskvs", "turtle_x":send_x, "turtle_y":send_y, "turtle_theta":send_theta} 
                 response1 = requests.get(URL1, params=parameters)

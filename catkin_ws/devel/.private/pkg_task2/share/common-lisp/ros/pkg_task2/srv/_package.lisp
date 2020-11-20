@@ -1,0 +1,10 @@
+(cl:defpackage pkg_task2-srv
+  (:use )
+  (:export
+   "VACUUMGRIPPER"
+   "<VACUUMGRIPPER-REQUEST>"
+   "VACUUMGRIPPER-REQUEST"
+   "<VACUUMGRIPPER-RESPONSE>"
+   "VACUUMGRIPPER-RESPONSE"
+  ))
+

@@ -1,0 +1,1 @@
+/home/tidu/catkin_ws/devel/.private/pkg_task2/lib/python2.7/dist-packages/pkg_task2/__init__.py

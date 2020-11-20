@@ -363,12 +363,6 @@ pkg_iot_ros_bridge_BINARY_DIR:STATIC=/home/tidu/catkin_ws/build/pkg_iot_ros_brid
 //Value Computed by CMake
 pkg_iot_ros_bridge_SOURCE_DIR:STATIC=/home/tidu/catkin_ws/src/pkg_iot_ros_bridge
 
-//Value Computed by CMake
-pkg_ros_actions_BINARY_DIR:STATIC=/home/tidu/catkin_ws/build/pkg_iot_ros_bridge
-
-//Value Computed by CMake
-pkg_ros_actions_SOURCE_DIR:STATIC=/home/tidu/catkin_ws/src/pkg_iot_ros_bridge
-
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
 

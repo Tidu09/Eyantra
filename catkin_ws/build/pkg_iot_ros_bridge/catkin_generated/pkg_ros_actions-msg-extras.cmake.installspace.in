@@ -1,2 +1,0 @@
-set(pkg_ros_actions_MESSAGE_FILES "msg/msgIotRosAction.msg;msg/msgIotRosActionGoal.msg;msg/msgIotRosActionResult.msg;msg/msgIotRosActionFeedback.msg;msg/msgIotRosGoal.msg;msg/msgIotRosResult.msg;msg/msgIotRosFeedback.msg")
-set(pkg_ros_actions_SERVICE_FILES "")
